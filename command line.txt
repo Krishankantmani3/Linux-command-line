@@ -1,0 +1,45 @@
+--------command line for linux-------
+1.) ls = list the contents of directory ; options : -l ,-ld ,-a ;
+2.) cd path= change directory path ; arguement for space separated folder;
+3.) cat = print the content of single or multiple file on  std output ; echo the contents of screen ;    options : -s,-b,-n ;
+4.) > ,>> =  redirect result of cmd to file  ; >  overwrite and >>  append ;
+5.) mkdir options dir = create directory ; options : -p(To create structure of directory) ; arguement {dir1,dir2} create multiple folder ;
+6.) rmdir options dir= delete  directory not containing ; optios : -p delete empty directory structure ; 
+7.) rm options arg = delete empty or non empty dir ; -r : delete rucursively ;
+8.) cp options src dest :  copy multiple src to des , if dest doesnt exist the copy content of src directoy ,if xist the copy whole directory ; options -i;
+9.) mv options src dest : if dest is dir and exist then  move src file or dir to des but dest not exist then create dir and file is  moved  but content of src dir is moved (like renaming)
+                          if dest is file and exist then move content of src file but not exist then create and move (rename);
+10.) less filename : print the content on screen ;
+11.) touch : create a file but file is already exist the change time stamp; 
+12.) nano :open nano  editor 
+13.) sudo : is prefix of other command provide privilge of super user ;
+14.) top : list the process and keep refreshing ; press button  : s to chnage refreshing time , i to filter out other idle  process ;
+15.) pidof process_name : print PID no.;
+16.) kill : kill the process ;options  -KILL : kill forcefully ;
+17.) echo arg: echo the arguement;
+18.) chmod permission file_name: change the file permission ;permission formate :u+rwx,g+rwx,o+rwx ; u=rwx,g=rwx,o=rwx; ugo+rwx ; + add permision ;- remove permission ;
+19.) which other_command ; whatis other_command:   which return path of which command ; whatis return definition of other command ;
+20.)  sudo useradd username -m -s bin/bash -g users -c comment "my comment " : command for adding new user ;
+21.)  sudo passwd username : change the password of user ;
+22.) sudo userdel : delete user but not delete home -directory of user; flag : -r also delete home directory ;
+23.) groups : return the list of group which user is connected to ;
+24.) cat etc/group : return all available groups are present in the operating system ;
+25.) sudo groupadd group_name :add the group ;
+26.) sudo groupdel group_name : delete the group ;
+27.) sudo gpasswd options username group_name : options -a : to add group ,to  delete group ;
+28.) df : show amount of available space and used space of file sytem.; option -h : human readable 
+29.) du : show amount of available  and used space of folder : option -h ,-s (summary )   ;
+30.) free ; options : -m,-b,-g ; 
+31.) watch other_cmd: prefix command to hang the result and refresh after few sec. ; options :  -n z : refreshing time ,z is integer ={0,1,2,3,4,5,6.......};
+32.) head filename: show no. of upper lines of file  ; options : -n : no. of line to be shown ;
+33.)tail filename : show no. of bottom linese of file ; options -n : no. of line to be shown ; 
+34.)find pathname -name file name ;search file in given path and its subdirectory ; options -mtime z: search file which is created z day ago ;
+35.) wc : show no. of line,no. of word,no. of character in respective order; options -c,-l,-w ;
+36.)cal , ncal : show current month calendar ;optional arg : year eg. 2020 ;
+37.)date : formating date +%m=moth no.,+%h=abbreviated month name,+%d=day of moth,+%B=month full name,+%y=year; +%H,+%M,+%S =hour , minute sec ; 
+38.) tar -cf foldername.tar foldername ; -cf : create folder ;
+39.) tar -xf foldername.tar ;
+40.) tar -cvfz foldername.tar.gz folder ;options  -x ;
+
+
+
