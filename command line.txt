@@ -34,7 +34,7 @@
 32.) head filename: show no. of upper lines of file  ; options : -n : no. of line to be shown ;
 33.)tail filename : show no. of bottom linese of file ; options -n : no. of line to be shown ; 
 34.)find pathname -name file name ;search file in given path and its subdirectory ; options -mtime z: search file which is created z day ago ;
-35.) wc : show no. of line,no. of word,no. of character in respective order; options -c,-l,-w ;
+35.) wc : show no. of line,no. of word,no. of character in respective order; options -l,-w,-c ;
 36.)cal , ncal : show current month calendar ;optional arg : year eg. 2020 ;
 37.)date : formating date +%m=moth no.,+%h=abbreviated month name,+%d=day of moth,+%B=month full name,+%y=year; +%H,+%M,+%S =hour , minute sec ; 
 38.) tar -cf foldername.tar foldername ; -cf : create folder ;
